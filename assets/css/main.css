@@ -59,7 +59,7 @@
 /* Basic */
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #4B4B4B;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -316,7 +316,7 @@
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		/* background-image: url("images/overlay-pattern.png"), url("images/overlay.svg"); */
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -639,7 +639,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px #4B4B4B;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -655,7 +655,7 @@
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 145, 0, 0.775);
 						color: #fff;
 					}
 
@@ -665,7 +665,7 @@
 				}
 
 					#header nav a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
+						background-color: rgba(255, 145, 0, 0.775);
 						color: #fff;
 					}
 
@@ -936,8 +936,8 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			background-size: cover;
+			width: cover;
 		}
 
 	/* Header */
@@ -1034,7 +1034,7 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size: cover;
 			width: 1237.5px;
 		}
 
