@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>D4G</title>
+		<title>#D4G</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -14,7 +14,8 @@
       xmlns:fb="http://ogp.me/ns/fb#">
       	<meta property="og:image" content="http://developersforgood.com/assets/css/images/D4G_aliados.png" />
 		<link rel=icon id=favicon >
-		<script>
+
+<!--		<script>
 		var i = 0;
 		setInterval(function () {
 		i=(i+1)%4;
@@ -25,6 +26,8 @@
 		"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/U%2B2196.svg/19px-U%2B2196.svg.png"][i];
 		}, 500);
 		</script>
+
+-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -38,17 +41,16 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>#Developers4Good</h1>
-						<p id="Subtitulo">Sumate a la comunidad y pasá de la protesta a la propuesta</p>
+						<p id="Subtitulo">Sumate a la comunidad y pasa de la protesta a la propuesta</p>
 						<nav>
 							<ul>
 								<li><a href="https://www.instagram.com/devs4good" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="http://www.twitter.com/devs4good" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/groups/devs4good" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.facebook.com/devs4good/" class="icon 			fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="http://slack.developersforgood.com" class="icon fa-slack"><span class="label">Slack</span></a></li>
-								<li><a href="https://github.com/Developers4Good" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.meetup.com/Developers-4-Good-Buenos-Aires/" class="icon fa-meetup"><span class="label">Sarahah</span></a></li>
-								<li><a href="http://devs4good.sarahah.com" class="icon fa-magic"><span class="label">Sarahah</span></a></li>
-								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeFYba4gm6rjhpjqePtBMU4dyrI1RWeGPfiBk3VC0dzaPTAdA/viewform" class="icon fa-sign-in"><span class="label">Registro</span></a></li>
+								<li><a href="https://www.meetup.com/Developers-4-Good-Buenos-Aires/" class="icon fa-meetup"><span class="label">Meetup</span></a></li>
+								<li><a href="https://hackdash.org/d/devs4good" class="icon fa-heart"><span class="label">HackDash</span></a></li>
+								<li><a href="https://www.developersforgood.com/sumate.html" class="icon fa-info-circle"><span class="label">Sumate</span></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -65,6 +67,20 @@
 			window.onload = function() { document.body.className = ''; }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		<script type="text/javascript">
+			var trackcmp_email = '';
+			var trackcmp = document.createElement("script");
+			trackcmp.async = true;
+			trackcmp.type = 'text/javascript';
+			trackcmp.src = '//trackcmp.net/visit?actid=89381454&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+			var trackcmp_s = document.getElementsByTagName("script");
+			if (trackcmp_s.length) {
+				trackcmp_s[0].parentNode.appendChild(trackcmp);
+			} else {
+				var trackcmp_h = document.getElementsByTagName("head");
+				trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+			}
 		</script>
 	</body>
 </html>
